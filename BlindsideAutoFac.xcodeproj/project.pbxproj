@@ -12,6 +12,12 @@
 		34640D821B6874900083EB01 /* BSProtocolBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3432C79C1B632DC20044B115 /* BSProtocolBinding.m */; };
 		34640D831B6874900083EB01 /* BSAutoFacProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 349A95301B66E0B8005F9C0F /* BSAutoFacProvider.m */; };
 		34640D841B6874900083EB01 /* BSProtocolUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3432C7A01B6332700044B115 /* BSProtocolUtilities.m */; };
+		348EB76D1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 348EB76B1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.h */; };
+		348EB76E1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 348EB76B1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.h */; };
+		348EB7721B7ADD90004B8EC3 /* BSBlockFactoryProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 348EB7711B7ADD90004B8EC3 /* BSBlockFactoryProviderSpec.mm */; };
+		348EB7751B7AF5F1004B8EC3 /* BSBlockFactoryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 348EB76C1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.m */; };
+		348EB7761B7AF5F2004B8EC3 /* BSBlockFactoryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 348EB76C1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.m */; };
+		348EB7771B7AF61F004B8EC3 /* BSBlockFactoryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 348EB76C1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.m */; };
 		349A953C1B67BBAC005F9C0F /* BlindsideAutoFac.h in Headers */ = {isa = PBXBuildFile; fileRef = 349A953B1B67BBAC005F9C0F /* BlindsideAutoFac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		349A95421B67BCC0005F9C0F /* BSConcreteFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 349A95411B67BC87005F9C0F /* BSConcreteFactory.h */; };
 		349A95431B67BECD005F9C0F /* BSConcreteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3432C7921B62E92D0044B115 /* BSConcreteFactory.m */; };
@@ -61,6 +67,9 @@
 		3432C7A01B6332700044B115 /* BSProtocolUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSProtocolUtilities.m; sourceTree = "<group>"; };
 		3432C7A11B6332700044B115 /* BSProtocolUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSProtocolUtilities.h; sourceTree = "<group>"; };
 		34640D7D1B6872E30083EB01 /* Cedar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cedar.framework; path = ../Carthage/Build/Mac/Cedar.framework; sourceTree = "<group>"; };
+		348EB76B1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBlockFactoryProvider.h; sourceTree = "<group>"; };
+		348EB76C1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBlockFactoryProvider.m; sourceTree = "<group>"; };
+		348EB7711B7ADD90004B8EC3 /* BSBlockFactoryProviderSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BSBlockFactoryProviderSpec.mm; sourceTree = "<group>"; };
 		349A952F1B66E0B8005F9C0F /* BSAutoFacProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAutoFacProvider.h; sourceTree = "<group>"; };
 		349A95301B66E0B8005F9C0F /* BSAutoFacProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAutoFacProvider.m; sourceTree = "<group>"; };
 		349A95321B66E1A8005F9C0F /* BSAutoFacProviderSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BSAutoFacProviderSpec.mm; sourceTree = "<group>"; };
@@ -128,6 +137,8 @@
 				3432C79C1B632DC20044B115 /* BSProtocolBinding.m */,
 				349A952F1B66E0B8005F9C0F /* BSAutoFacProvider.h */,
 				349A95301B66E0B8005F9C0F /* BSAutoFacProvider.m */,
+				348EB76B1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.h */,
+				348EB76C1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.m */,
 				349A95411B67BC87005F9C0F /* BSConcreteFactory.h */,
 				3432C7921B62E92D0044B115 /* BSConcreteFactory.m */,
 				3432C7A11B6332700044B115 /* BSProtocolUtilities.h */,
@@ -168,6 +179,7 @@
 				3432C7941B62E98F0044B115 /* BSConcreteFactorySpec.mm */,
 				3432C79E1B632F660044B115 /* BSProtocolBindingSpec.mm */,
 				349A95321B66E1A8005F9C0F /* BSAutoFacProviderSpec.mm */,
+				348EB7711B7ADD90004B8EC3 /* BSBlockFactoryProviderSpec.mm */,
 				3432C7971B62E9E60044B115 /* TestHelpers.h */,
 				3432C7981B62E9E60044B115 /* TestHelpers.m */,
 				349A958D1B6870EC005F9C0F /* main.mm */,
@@ -188,6 +200,7 @@
 				349A955F1B67E24C005F9C0F /* BSProtocolUtilities.h in Headers */,
 				349A953C1B67BBAC005F9C0F /* BlindsideAutoFac.h in Headers */,
 				349A95421B67BCC0005F9C0F /* BSConcreteFactory.h in Headers */,
+				348EB76D1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +213,7 @@
 				349A955E1B67E24C005F9C0F /* BSProtocolUtilities.h in Headers */,
 				349A95541B67C0E6005F9C0F /* BlindsideAutoFac.h in Headers */,
 				349A95591B67E239005F9C0F /* BSConcreteFactory.h in Headers */,
+				348EB76E1B7AD8CA004B8EC3 /* BSBlockFactoryProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +336,7 @@
 			files = (
 				349A95461B67BECD005F9C0F /* BSProtocolUtilities.m in Sources */,
 				349A95441B67BECD005F9C0F /* BSProtocolBinding.m in Sources */,
+				348EB7751B7AF5F1004B8EC3 /* BSBlockFactoryProvider.m in Sources */,
 				349A95451B67BECD005F9C0F /* BSAutoFacProvider.m in Sources */,
 				349A95431B67BECD005F9C0F /* BSConcreteFactory.m in Sources */,
 			);
@@ -333,6 +348,7 @@
 			files = (
 				349A95581B67C0F0005F9C0F /* BSProtocolUtilities.m in Sources */,
 				349A95561B67C0F0005F9C0F /* BSProtocolBinding.m in Sources */,
+				348EB7761B7AF5F2004B8EC3 /* BSBlockFactoryProvider.m in Sources */,
 				349A95571B67C0F0005F9C0F /* BSAutoFacProvider.m in Sources */,
 				349A95551B67C0F0005F9C0F /* BSConcreteFactory.m in Sources */,
 			);
@@ -348,7 +364,9 @@
 				34640D821B6874900083EB01 /* BSProtocolBinding.m in Sources */,
 				349A95941B68711A005F9C0F /* BSProtocolBindingSpec.mm in Sources */,
 				349A95931B68711A005F9C0F /* BSConcreteFactorySpec.mm in Sources */,
+				348EB7771B7AF61F004B8EC3 /* BSBlockFactoryProvider.m in Sources */,
 				349A95951B68711A005F9C0F /* BSAutoFacProviderSpec.mm in Sources */,
+				348EB7721B7ADD90004B8EC3 /* BSBlockFactoryProviderSpec.mm in Sources */,
 				349A95921B68711A005F9C0F /* TestHelpers.m in Sources */,
 				34640D841B6874900083EB01 /* BSProtocolUtilities.m in Sources */,
 			);
